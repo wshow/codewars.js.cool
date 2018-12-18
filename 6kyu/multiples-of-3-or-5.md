@@ -22,7 +22,11 @@ Courtesy of ProjectEuler.net
 一句话代码解决方案，我的提交：
 
 ```js
-const solution = n => (n <= 0 ? 0 : new Array(n).fill(0).map((_, i) => i).reduce((result, i) => result + (i % 3 === 0 || i % 5 === 0 ? i : 0), 0));
+const solution = n => (n <= 0 ? 0 : // fix 题目中出现负数的用例
+  new Array(n).fill(0)
+    .map((_, i) => i)
+    .reduce((result, i) => result + (i % 3 === 0 || i % 5 === 0 ? i : 0), 0)
+);
 ```
 
 ## 拓展阅读
