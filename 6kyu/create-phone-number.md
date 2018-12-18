@@ -16,14 +16,6 @@ createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
 The returned format must be correct in order to complete this challenge.
 Don't forget the space after the closing parentheses!
 
-## 初始代码
-
-```js
-function createPhoneNumber(numbers){
-
-}
-```
-
 ## 解题思路
 
 我看到题目第一反应用正则。

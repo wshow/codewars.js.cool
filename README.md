@@ -1,5 +1,7 @@
 # Codewars 解题集
 
+[![Build Status](https://travis-ci.org/willin/codewars.js.cool.svg?branch=master)](https://travis-ci.org/willin/codewars.js.cool)
+
 链接： <https://codewars.js.cool/>
 
 作者： Willin Wang
