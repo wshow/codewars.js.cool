@@ -15,7 +15,11 @@ Courtesy of ProjectEuler.net
 
 ## 解题思路
 
-待完善
+- 第一步，得到一个 0（或者1） 到 n 的数组
+  - 1.1 长度为 n 的数组 `new Array(n)` 这样的数组是 `[empty * n]`， 无法进行 map / reduce 等遍历操作的
+  - 1.2 创建可遍历的数组 `new Array(n).fill(0)`
+  - 1.3 填充 0 到 n 的数组 `new Array(n).fill(0).map((_, i) => i)`
+- 遍历数组，如果当前元素 i 符合条件，则累加，用数组的 `reduce` 方法
 
 ## 参考答案
 

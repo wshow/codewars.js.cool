@@ -32,7 +32,14 @@ Enjoy it!!
 
 ## 解题思路
 
-待完善
+- 第一步，得到一个 a 到 b 的数组
+  - 1.1 长度为 b-a 的数组 `new Array(b-a)` 这样的数组是 `[empty * n]`， 无法进行 map / reduce 等遍历操作的
+  - 1.2 创建可遍历的数组 `new Array(b-a).fill(0)`
+  - 1.3 填充 a 到 b 的数组 `new Array(b-a).fill(0).map((_, i) => a + i)`
+- 选择数组中符合条件的结果集， 用数组的 `filter`（筛选）方法
+  - 以 89 为例， 先将其拆分为数组 `[8, 9]`
+  - 然后对数组进行操作，将每一位上进行计算累加， `8^1 + 9^2`， 依然使用数组的 `reduce` 方法
+  - ECMAScript 新标准 `a ** b` 表示计算a的b次方
 
 ## 参考答案
 
@@ -42,7 +49,11 @@ Enjoy it!!
 const sumDigPow = (a, b) =>
   new Array(b - a).fill(0)
     .map((_, i) => a + i)
-    .filter(x => `${x}`.split('').reduce((result, n, i) => result + n ** (i + 1), 0) === x);
+    .filter(x =>
+      `${x}`.split('')
+        .reduce((result, n, i) => result + n ** (i + 1), 0)
+      === x
+    );
 ```
 
 ## 拓展阅读

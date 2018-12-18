@@ -30,6 +30,10 @@ Note: all the hashes are pre-validated and will only contain A-Z, a-z, '-' and '
 
 我看到题目第一反应用正则。
 
+- 第一步 `names.map(x=>x.name)`，遍历得到数组： `['Bart', 'Lisa', 'Maggie']`
+- 逗号分隔 `.join(', ')` 得到字符串：`'Bart, Lisa, Maggie'`
+- 正则替换最后一个 `', '` 为 `' & '`
+
 ## 参考答案
 
 一句话代码解决方案，我的提交：
@@ -44,4 +48,7 @@ const list = names =>
 
 ## 拓展阅读
 
-《边学边玩酷JS》正则表达式章节： <https://learn.js.cool/regexp/base.html>
+《边学边玩酷JS》
+
+- 正则表达式章节： <https://learn.js.cool/regexp/base.html>
+- 数组章节： <https://learn.js.cool/base/array.html>
