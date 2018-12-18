@@ -6,6 +6,8 @@
 
 ## 6 kyu
 
+- [Create Phone Number](6kyu/create-phone-number.md)
+
 ## 5 kyu
 
 ## 4 kyu
