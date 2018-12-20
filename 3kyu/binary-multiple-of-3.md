@@ -1,5 +1,7 @@
 # Binary multiple of 3
 
+链接：<https://www.codewars.com/kata/binary-multiple-of-3>
+
 ## 题目介绍
 
 In this kata, your task is to create a regular expression capable of evaluating binary strings (strings with only `1`s and `0`s) and determining whether the given string represents a number divisible by 3.
