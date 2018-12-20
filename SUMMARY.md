@@ -17,6 +17,8 @@
 
 ## 3 kyu
 
+- [Binary multiple of 3](3kyu/binary-multiple-of-3.md)
+
 ## 2 kyu
 
 ## 1 kyu
