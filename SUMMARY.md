@@ -17,6 +17,8 @@
 
 ## 4 kyu
 
+- [Fluent Calculator](4kyu/fluent-calculator-1.md)
+
 ## 3 kyu
 
 - [Binary multiple of 3](3kyu/binary-multiple-of-3.md)
