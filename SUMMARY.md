@@ -13,6 +13,8 @@
 
 ## 5 kyu
 
+- [Base64 Encoding](5kyu/base64-encoding.md)
+
 ## 4 kyu
 
 ## 3 kyu
