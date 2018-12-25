@@ -2,6 +2,9 @@
 
 ## 8 kyu
 
+- [Double Char](8kyu/double-char.md)
+- [Beginner - Reduce but Grow](8kyu/beginner-reduce-but-grow.md)
+
 ## 7 kyu
 
 ## 6 kyu
