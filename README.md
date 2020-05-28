@@ -10,6 +10,8 @@
 
 ![98](https://cloud.githubusercontent.com/assets/1890238/18192044/13685226-7103-11e6-9cb0-ba9ec049ab9e.png)
 
+![1dan](https://user-images.githubusercontent.com/1890238/83124576-f32f6000-a108-11ea-9265-c8f5b8cf32fc.png)
+
 ## 语言
 
 主要： JavaScript
