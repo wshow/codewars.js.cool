@@ -20,6 +20,7 @@
 ## 5 kyu
 
 - [Base64 Encoding](5kyu/base64-encoding.md)
+- [Multi Line Task: Fizz Buzz](5kyu/multi-line-task.md)
 
 ## 4 kyu
 
