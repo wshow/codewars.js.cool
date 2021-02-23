@@ -1,0 +1,23 @@
+{
+  "name": "codewars.js.cool",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/willin/codewars.js.cool.svg?branch=master)](https://travis-ci.org/willin/codewars.js.cool)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willin/codewars.js.cool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willin/codewars.js.cool/issues"
+  },
+  "homepage": "https://github.com/willin/codewars.js.cool#readme",
+  "resolutions": {
+    "**/graceful-fs": "^4.2.4"
+  }
+}
